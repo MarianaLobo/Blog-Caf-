@@ -89,6 +89,9 @@ img {
     margin-top: 15rem;
   }
 }
+.bar {
+padding-top: 3rem;
+}
 @media (min-width: 768px) {
   .bar {
     display: flex;
@@ -112,7 +115,7 @@ img {
   font-size: 1.8rem;
   color: var(--white);
 }
-@media (min-with: 768px) {
+@media (min-width: 768px) {
   .navegation {
     display: flex;
     gap: 2rem;
@@ -180,6 +183,15 @@ img {
 /** FOOTER **/
 .footer {
   background-color: var(--black);
-  padding: 3rem 0;
+  padding-bottom: 3rem;
   margin-top: 4rem;
+}
+
+/** ABOUT US **/
+@media (min-width: 768px) {
+  .about-us {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
 }
